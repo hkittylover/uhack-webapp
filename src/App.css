@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+
+body {
+  background-color: #f3f3f3;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 125px;
+}
+
+.App-header {
+  background-color: #000;
+  height: 120px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.text-input-area {
+  width: 500px;
+  border: 1px solid #cecece;
+  border-radius: 10px;
+  resize: none;
+  padding: 10px;
+}
+
+.text-body {
+  font-family: 'Rubik', sans-serif;
+}
+
+.text-title {
+  margin-bottom: 10px;
+}
+
+.text-container {
+  background-color: #ffffff;
+  padding: 20px;
+  width:40%;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  border: 1px solid #cecece;
+}
+
+.button-submit {
+  font-family: 'Rubik', sans-serif;
+  color: #fff;
+  background-color: #ff5b84;
+  border: none;
+  border-radius:5px;
+  padding: 10px;
+  width: 150px;
+  transition-duration: 0.5s;
+}
+
+.button-submit:hover {
+  background-color: #ffffff;
+  border: 1px solid #cecece;
+  color: #000000;
+  transition-duration: 0.5s;
+}
+
+.patient-name {
+  height: 10px;
+}
+
+/* @keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+} */
